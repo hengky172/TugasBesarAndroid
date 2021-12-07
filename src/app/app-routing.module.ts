@@ -11,6 +11,30 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'hlmamin',
+    loadChildren: () => import('./hlmamin/hlmamin.module').then( m => m.HlmaminPageModule)
+  },
+  {
+    path: 'hlmhengky',
+    loadChildren: () => import('./hlmhengky/hlmhengky.module').then( m => m.HlmhengkyPageModule)
+  },
+  {
+    path: 'hlmwiwik',
+    loadChildren: () => import('./hlmwiwik/hlmwiwik.module').then( m => m.HlmwiwikPageModule)
+  },
+  {
+    path: 'detailamin',
+    loadChildren: () => import('./detailamin/detailamin.module').then( m => m.DetailaminPageModule)
+  },
+  {
+    path: 'detailhengky',
+    loadChildren: () => import('./detailhengky/detailhengky.module').then( m => m.DetailhengkyPageModule)
+  },
+  {
+    path: 'detailwiwik',
+    loadChildren: () => import('./detailwiwik/detailwiwik.module').then( m => m.DetailwiwikPageModule)
+  },
 ];
 
 @NgModule({
