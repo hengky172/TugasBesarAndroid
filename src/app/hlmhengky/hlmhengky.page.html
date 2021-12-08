@@ -8,25 +8,50 @@
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Hengky Darmawan, Wiwik Listiyarini, Amin Prayugi</ion-title>
+      <ion-title size="large"></ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <div id="container" class="ion-padding">
-    <h2>Cumlaude</h2>
-    <img src="../../assets/hengky.jpeg" width="200" alt="">
-    <p>Name : Hengky Darmawan</p>
-    <p>Tanggal Lahir : 22 Febuari 2001</p>
-    <p>Jurusan : Teknik Informatika</p>
-    <p>Angkatan : 2019</p>
-    <p>Alamat : Jakarta Barat</p>
-    <p>IPK : 3.91</p>
-    <p>Project : </p>
-    <ion-button [routerLink] ="['/detailhengky']" expand="full" color="secondary">See Project</ion-button>
+  <div>
+    <p style="text-align: center; font-size: large;">Cumlaude</p>
   </div>
-  <footer><b>Copyright &copy; 2021 <br><br> Hengky Darmawan, Wiwik Listiyarini, Amin Prayugi</b></footer>
+  <div>
+    <center><img src="../../assets/hengky.jpeg" align="center" class="img" alt=""></center>
+  </div>
+  <ion-card>
+      <ion-list>
+        <ion-item>
+          <div></div>
+         Nama Lengkap : Hengki Darmawan
+        </ion-item>
+        <ion-item>
+          <div></div>
+          TTL   : Jakarta, 21-21-2001
+        </ion-item>
+        <ion-item>
+          <div></div>
+          Jurusan : Teknik Informatika
+        </ion-item>
+        <ion-item>
+          <div></div>
+          Alamat  : Jakarta
+        </ion-item>
+        <ion-item>
+          <div></div>
+         IPK  : 3.90
+        </ion-item>
+      </ion-list>
+  </ion-card>
+  <div class="center">
+    <ion-button [routerLink] ="['/detailhengky']" color="secondary">See Project</ion-button>
+  </div>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>Copyright &copy; Our team;
+      Hengky, Wiwik, Amin</ion-title>
+  </ion-toolbar>
+</ion-footer>

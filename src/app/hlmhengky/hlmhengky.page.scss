@@ -4,28 +4,7 @@ ion-menu-button {
 ion-title {
   color: #fff;
 }
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  padding: 20px 0;
-  border-top: 1px rgb(175, 175, 175) solid;
-}
-h2 {
-  left: 0;
-  width: 100%;
-  text-align: center;
-  padding: 10px 0;
-  margin-bottom: 30px;
-  border-bottom: 1px #3880ff solid;
-}
-ion-icon {
-  width: 30px;
-  height: 30px;
-  padding-left: 5px;
-}
+
 #container {
   text-align: center;
   position: absolute;
@@ -51,4 +30,18 @@ ion-icon {
 
 #container a {
   text-decoration: none;
+}
+.center{
+  text-align: center;
+}
+
+img {
+  width: 200px;
+	height: 200px;
+	background: #dac52c;
+	border-radius: 300%;
+  width: 160px;
+  height: 155px;
+  position: sticky;
+
 }

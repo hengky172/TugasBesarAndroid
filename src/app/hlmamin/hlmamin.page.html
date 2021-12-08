@@ -12,21 +12,48 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Hengky Darmawan, Wiwik Listiyarini, Amin Prayugi</ion-title>
+      <ion-title size="large"></ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <div id="container" class="ion-padding">
-    <h2>Cumlaude</h2>
-    <img src="../../assets/amin.jpeg" width="190" height="200" alt="">
-    <p>Name : Amin Prayugi</p>
-    <p>Tanggal Lahir : Demak , 21 Juli 2000</p>
-    <p>Jurusan : Teknik Informatika</p>
-    <p>Angkatan : 2019</p>
-    <p>Alamat : Banjarsari Sayung, Demak</p>
-    <p>IPK : 3.94</p>
-    <p>Project : </p>
-    <ion-button [routerLink] ="['/detailamin']" expand="full" color="secondary">See Project</ion-button>
+  <div>
+    <p style="text-align: center; font-size: large;">Cumlaude</p>
   </div>
-  <footer><b>Copyright &copy; 2021 <br><br> Hengky Darmawan, Wiwik Listiyarini, Amin Prayugi</b></footer>
+  <div>
+    <center><img src="../../assets/1.jpeg" align="center" class="img" alt=""></center>
+  </div>
+  <ion-card>
+
+      <ion-list>
+        <ion-item>
+          <div></div>
+         Nama Lengkap : Amin Prayugi
+        </ion-item>
+        <ion-item>
+          <div></div>
+          TTL   : Demak. 21 Juli 2000
+        </ion-item>
+        <ion-item>
+          <div></div>
+          Jurusan : Teknik Informatika
+        </ion-item>
+        <ion-item>
+          <div></div>
+          Alamat  : Jakarta
+        </ion-item>
+        <ion-item>
+          <div></div>
+         IPK  : 3.90
+        </ion-item>
+      </ion-list>
+  </ion-card>
+  <div class="center">
+    <ion-button [routerLink] ="['/detailamin']" color="secondary">See Project</ion-button>
+  </div>
 </ion-content>
+
+ <ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-title>Copyright &copy; Our team;
+      Hengky, Wiwik, Amin</ion-title>
+  </ion-toolbar>
+</ion-footer>
